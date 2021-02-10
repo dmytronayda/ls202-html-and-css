@@ -1,0 +1,102 @@
+@import "./whitespace-reset.css";
+
+html {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background: linear-gradient(0, rgb(252, 254, 244), rgb(211, 218, 189));
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+h1 {
+  background-image: url(./../images/logo.png);
+  background-repeat: no-repeat;
+  padding: 45px 0 40px 130px;
+  font-size: 32px;
+  float: left;
+  color: rgb(25, 52, 65);
+}
+
+nav {
+  float: right;
+  padding: 75px 20px 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: rgb(252, 255, 245);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+ul li a {
+  color: rgb(145, 170, 157);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li.active {
+  background-color: rgb(145, 170, 157);
+}
+
+li.active a {
+  color: white;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  color: rgb(62, 96, 111);
+}
+
+h2 {
+  margin-top: 45px;
+  font-size: 24px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+main {
+  overflow: hidden;
+  box-shadow: 0 5px 3px rgb(181, 181, 181);
+}
+
+main figure.article {
+  display: inline-block;
+  float: right;
+  padding: 20px 0 0 20px;
+}
+
+footer {
+  color: rgb(62, 96, 111);
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
