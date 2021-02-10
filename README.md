@@ -1,4 +1,4 @@
-# LS 202 - HTML & CSS course
+# LS 202 - Shutter Bug project
 
 This is the repository the Launch School's LS202 course project: *On Your Own: Using a PNG Design File*.
 
